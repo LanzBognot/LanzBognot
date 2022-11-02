@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SWAMP</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="contactus.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+    <!-- Boxicons CSS -->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <section class="contact">
+        <div class="content">
+            <h2>Contact <span class="SWAMP">Us</span></h2>
+            <p>For queries and further information, please fill out the form and we'll try to be in touch as soon as possible.</p>
+        </div>
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"><i class="bx bx-map icon"></i></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p1>Technological University of the Philippines - Manila</p1>
+                        <p>Ayala Blvd., Ermita, Manila, 1000, Philippines</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="bx bx-phone"></i></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>(+63) 969-591-9166</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="bx bx-envelope icon"></i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>tupm-swamp@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form>
+                    <h2>Send us a message</h2>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required="required"></textarea>
+                        <span>Message</span>
+                    </div>
+                    <button>Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <nav>
+          <div class="logo">
+              <i class="bx bx-menu menu-icon"></i>
+          </div>
+        
+          <div class="header-LOGO">
+              <a href="#"><img class="LOGO" src="img/logo.png"></a>
+          </div>
+
+          <div class="sidebar">
+              <div class="logo">
+                  <i class="bx bx-menu menu-icon"></i>
+                  <span class="logo-name">S.W.A.M.P</span>
+              </div>
+              <div class="sidebar-content">
+                  <ul class="lists">
+                      <li class="list">
+                          <a href="#" class="nav-link">
+                              <i class="bx bx-home-alt icon"></i>
+                              <span class="link">Dashboard</span>
+                          </a>
+                      </li>
+                      <li class="list">
+                          <a href="#" class="nav-link">
+                              <i class="bx bx-bar-chart-alt-2 icon"></i>
+                              <span class="link">Predictions</span>
+                          </a>
+                      </li>
+                      <li class="list">
+                          <a href="routing.html" class="nav-link">
+                              <i class="bx bx-map-pin icon"></i>
+                              <span class="link">Routing</span>
+                          </a>
+                      </li>
+                      <li class="list">
+                          <a href="#" class="nav-link">
+                              <i class="bx bx-message-rounded-error icon"></i>
+                              <span class="link">Warning</span>
+                          </a>
+                      </li>
+                      <li class="list">
+                          <a href="rules.html" class="nav-link">
+                              <i class="bx bx-info-circle icon"></i>
+                              <span class="link">Flood Safety Rules</span>
+                          </a>
+                      </li>
+                      <li class="list">
+                          <a href="emergency.html" class="nav-link">
+                              <i class="bx bx-phone icon"></i>
+                              <span class="link">Emergency Contacts</span>
+                          </a>
+                      </li>
+                      <li class="list">
+                          <a href="qr.html" class="nav-link">
+                              <i class="bx bx-qr icon"></i>
+                              <span class="link">QR Code</span>
+                          </a>
+                      </li>
+                      <li class="list">
+                          <a href="faqs.html" class="nav-link">
+                              <i class="bx bx-check icon"></i>
+                              <span class="link">FAQs</span>
+                          </a>
+                      </li>
+                      <li class="list">
+                          <a href="aboutus.html" class="nav-link">
+                              <i class="bx bx-user icon"></i>
+                              <span class="link">About Us</span>
+                          </a>
+                      </li>
+                      <li class="list">
+                          <a href="contactus.html" class="nav-link">
+                              <i class="bx bx-envelope icon"></i>
+                              <span class="link">Contact Us</span>
+                          </a>
+                      </li>
+                  </ul>
+
+                  <div class="bottom-cotent">
+                      <li class="list">
+                          <a href="logout.php" class="nav-link">
+                              <i class="bx bx-log-out icon"></i>
+                              <span class="link">Logout</span>
+                          </a>
+                      </li>
+                  </div>
+              </div>
+          </div>
+      </nav>
+    
+    <section class="overlay"></section>
+        
+    <script>
+      const navBar = document.querySelector("nav"),
+        menuBtns = document.querySelectorAll(".menu-icon"),
+        overlay = document.querySelector(".overlay");
+
+      menuBtns.forEach((menuBtn) => {
+        menuBtn.addEventListener("click", () => {
+          navBar.classList.toggle("open");
+        });
+      });
+
+      overlay.addEventListener("click", () => {
+        navBar.classList.remove("open");
+      });
+    </script>
+</body>
+</html>

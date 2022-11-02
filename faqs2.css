@@ -1,0 +1,149 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/background.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.bar{
+    width: 100%;
+    margin: auto;
+    padding: 35px;
+    padding-left: 60%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    float: right;
+}
+
+.bar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.bar ul li a{
+    color: #fff;
+    font-weight: 500;
+    
+}
+
+.bar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #A3DF02;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    transition: 0.5s;
+}
+
+.bar ul li:hover:after{
+    width: 100%;
+}
+
+.wrapper{
+    width: 100%;
+    position: relative;
+    top: 100%;
+    transform: translateY(-70%);
+    text-align: center;
+    color: #fff;
+}
+
+.FAQs {
+    color: #A3DF02;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.contact {
+    position: relative;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact .content {
+    max-width: 1200px;
+    text-align: center;
+}
+.contact .content h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+.SWAMP {
+    color: #A3DF02;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+    
+.card {
+    background: white;
+    width: 80%;
+    height: 160px;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.card h2 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: green;
+}
+    
+.card p {
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 15px;
+    color: #111;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+}
+    
+.card1 {
+    background: white;
+    width: 80%;
+    height: 130px;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.card1 h2 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: green;
+}
+    
+.card1 p {
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 15px;
+    color: #111;
+}
